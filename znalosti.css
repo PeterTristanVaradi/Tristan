@@ -1,0 +1,42 @@
+body {
+    display: grid;
+    background-color: black;
+}
+.UL1 {
+    list-style: none;
+    display: inline;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 1000px;
+    
+    
+}
+a:link {
+    color: rgb(10, 10, 207);
+    text-decoration: none;
+    
+}
+a:visited {
+    color: rgb(10, 10, 207);
+}
+a:hover {
+    color: black;
+}
+.H1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 230px;
+    text-transform: uppercase;
+    color: gold;
+}
+.skills {
+    display: inline-flex;
+    list-style: none;
+    gap: 60px;
+    justify-content: center;
+    margin-left: -25px;
+    color: gold;
+}
+
+

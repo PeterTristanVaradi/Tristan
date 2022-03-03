@@ -1,0 +1,43 @@
+body {
+    display: grid;
+   background-color: black;
+}
+h1 {
+    color: gold;
+    text-align: center;
+    margin-top: 250px;
+}
+.UL1 {
+    list-style: none;
+    display: inline;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 1000px;
+    
+    
+}
+a:link {
+    color: gold;
+    text-decoration: none;
+    
+}
+a:visited {
+    color: gold;
+}
+a:hover {
+    color: blue;
+}
+.galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+img {
+    height: 480px;
+    filter: grayscale(1);
+}
+img:hover {
+    filter: none;
+}
